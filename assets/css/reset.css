@@ -1,0 +1,94 @@
+/* Reset Asll Element */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i, hr,
+dl, dt, dd, ol, ul, li,
+form, fieldset, legend, label, button, input,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+main, menu, nav, footer, header, hgroup, section, summary,
+time, mark, audio, video{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:inherit;
+    font-family: inherit;
+	vertical-align:baseline;
+	background:transparent;
+}
+main, header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption{display:block;}
+ul, ol{list-style:none;} 
+em, address, i{font-style:normal;}
+a{text-decoration:none; color: #000;}
+a.u{text-decoration: underline;}
+img{vertical-align:top}
+
+/* Form */
+legend, .blind{
+    position: absolute;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    clip: rect(0 0 0 0);
+    -webkit-clip-path: inset(50%);
+            clip-path: inset(50%);
+} 
+select, textarea, input, label{vertical-align:middle;}
+select, textarea, input{
+    -webkit-appearance: none;
+       -moz-appearance: none;
+         -o-appearance: none;
+            appearance: none;
+}
+
+input[type=checkbox], input[type=radio]{box-sizing:border-box;padding:0;margin:0;}
+button::-moz-focus-inner, input::-moz-focus-inner{border:0;padding:0}
+select:-moz-focusring{color:transparent;text-shadow:0 0 0 #000;}
+select::-ms-expand{display:none}
+:focus{outline: none;}
+
+/* Table */
+table{border-collapse:collapse;}
+
+/* List */
+li{list-style: none;}
+
+:root{
+	font-size:.625rem;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width: 12px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
